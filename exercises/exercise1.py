@@ -12,6 +12,8 @@ lado_cuadrado = 5
 
 # COMPLETAR - FIN
 
+area_cuadrado = lado_cuadrado * lado_cuadrado
+
 assert area_cuadrado == 25
 
 
@@ -24,6 +26,7 @@ lado_cuadrado = 5
 # COMPLETAR - INICIO
 
 # COMPLETAR - FIN
+area_cuadrado = 5 ** 2
 
 assert area_cuadrado == 25
 
@@ -35,7 +38,7 @@ Re-Escribir usando la función pow.
 lado_cuadrado = 5
 
 # COMPLETAR - INICIO
-
+area_cuadrado = pow(5, 2)
 # COMPLETAR - FIN
 
 assert area_cuadrado == 25
@@ -52,7 +55,7 @@ presupuesto_disponible = 10
 # COMPLETAR - INICIO
 
 # COMPLETAR - FIN
-
+cantidad_a_comprar = presupuesto_disponible // precio
 assert cantidad_a_comprar == 2
 
 
@@ -66,5 +69,7 @@ numero_incalculable = 2 ** 54 - 1
 # COMPLETAR - INICIO
 
 # COMPLETAR - FIN
+
+es_divisible_por_siete = numero_incalculable % 7 == 0
 
 assert es_divisible_por_siete
